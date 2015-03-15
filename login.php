@@ -28,7 +28,7 @@ $_SESSION = array();
                 <form>
                     <input type="text" class="frm_input_login" id="username1" placeholder="username"/>
                     <input type="password" class="frm_input_login" id="password1" placeholder="password"/>
-                    <input type="button" class="frm_button_create" value="Create Account" onclick="create_user()">
+                    <input type="button" class="frm_button_create" value="Create Account" onclick="create_user()"/>
                 </form>
             </fieldset>
 			<br></br>
@@ -37,7 +37,7 @@ $_SESSION = array();
                 <form>
                     <input type="text" class="frm_input_login" id="username2" class="frm_input" placeholder="username" required oninvalid="this.setCustomValidity('You must enter a username to create an account')" oninput="setCustomValidity('')"/>
                     <input type="password" class="frm_input_login" id="password2" class="frm_input" placeholder="password" required oninvalid="this.setCustomValidity('You must enter a password to create an account')" oninput="setCustomValidity('')"/>
-                    <input type="button" class="frm_button" value="Sign-In" onclick="sign_in()">
+                    <input type="button" class="frm_button" value="Sign-In" onclick="sign_in()"/>
                 </form>
             </fieldset>
         </div><!-- content -->    

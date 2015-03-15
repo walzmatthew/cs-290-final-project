@@ -27,13 +27,13 @@ if (!isset($_SESSION['username'])) {
         <div class="content">
 			<br></br>
             <fieldset class="field_form">
-                <legend> <img src="images/plus.gif"> Add a new To-Do List Task, <?php echo "$_SESSION[username]"; ?> </legend>
+                <legend> <img src="images/plus.gif"> Add a new To-Do List Task, <?php echo "$_SESSION[username]";?> </legend>
                 <form>
-                    <label class="frm_label">To-Do List Task Name: <input type="text" id="title" class="frm_input_title" placeholder="Become Andy's Favorite Toy">
-                    <label class="frm_label">Task Description (optional) (100 character max): <input type="text" id="description" class="frm_input_description" placeholder="Need to beat out Woody and Buzz">
-                    <label class="frm_label">Due Date: <input type="date" id="due_date" class="frm_input_date" placeholder="mm/dd/yyyy">
-					<label class="frm_label">Sharing Setting: <select id="share" class="frm_input_share"><option selected value="0">Private Entry</option><option value="1">Share Publicly</option></select>
-                    <input type="button" class="frm_button" value="Add Task" onclick="add_to_do()">
+                    <label class="frm_label">To-Do List Task Name: </label><input type="text" id="title" class="frm_input_title" placeholder="Become Andy's Favorite Toy"/>
+                    <label class="frm_label">Task Description (optional) (100 character max): </label><input type="text" id="description" class="frm_input_description" placeholder="Need to beat out Woody and Buzz"/>
+                    <label class="frm_label">Due Date: </label><input type="date" id="due_date" class="frm_input_date" placeholder="mm/dd/yyyy"/>
+					<label class="frm_label">Sharing Setting: </label><select id="share" class="frm_input_share"><option selected value="0">Private Entry</option><option value="1">Share Publicly</option></select>
+                    <input type="button" class="frm_button" value="Add Task" onclick="add_to_do()"/>
                 </form>
             </fieldset>
             <br></br>
